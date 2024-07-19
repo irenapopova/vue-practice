@@ -12,6 +12,13 @@
   
     <div id="app">
       <p {{ title }} - {{author}} - {{ age }}></p>
+      <!----directive v-on (onclick)-->
+      <!-----no curly braces {} inside directives when using different properties,only when we output them to the browser-->
+     
+      <button v-on:click="age++">Increase age</button>
+      <button v-on:click="age--">Decrease age</button>
+       <!----v-on can be replace with @-->
+      <div @:click="title" ='something'>Change Book Title</div>
     </div>
 
    
