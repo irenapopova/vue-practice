@@ -3,15 +3,16 @@
 👉 mousedown the mouse button was pressed
 mouseup the mouse button was released
 - 👉 click a click event
-- dblclick a double click event
+- dblclick a double click event#
 mousemove when the mouse is moved over the element
 mouseover when the mouse is moved over an element or one of its child elements
 mouseenter when the mouse is moved over an element. Similar to mouseover but does not bubble (more on this soon!)
+
 👉 mouseout when the mouse is moved out of an element, and when the mouse enters a child elements
 mouseleave when the mouse is moved out of an element. Similar to mouseout but does not bubble (more on this soon!)
 contextmenu when the context menu is opened, e.g. on a right mouse button `click`
 
-# Events overlap. When you track a click event, it’s like tracking a mousedown followed by a mouseup event. In the case of dblclick, click is also fired two times.
+### Events overlap. When you track a click event, it’s like tracking a mousedown followed by a mouseup event. In the case of dblclick, click is also fired two times.
 
 `mousedown`, `mousemove` and `mouseup` can be used in combination to track drag-and-drop events.
 
