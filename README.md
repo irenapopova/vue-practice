@@ -1,4 +1,4 @@
-Vue practice
+ Vue practice  
 
 Building a small app with just JavaScript and rebuilding it with Vue
 
