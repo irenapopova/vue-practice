@@ -1,5 +1,10 @@
 const app = Vue.createApp({
-  //data, functions
-  //template: "<h2>I am the template</h2>",
+  data() {
+    return {
+      title: "The Final Empire",
+      author: 'Brandon Smith'
+      age:35
+    };
+  },
 });
 app.mount("#app");
